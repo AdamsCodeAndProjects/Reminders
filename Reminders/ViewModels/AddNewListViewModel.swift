@@ -21,9 +21,13 @@ class AddNewListViewModel: ObservableObject {  // There will be some properties 
     
     // Saves the context
     func save() {
-        let myList = MyList(context: context)  // Creates a new instance of myList
-        myList.name = name                     // Set name and color
-        myList.color = UIColor(color)
-//        myList.save()
+        do {
+            let myList = MyList(context: context)  // Creates a new instance of myList
+            myList.name = name                     // Set name and color
+            myList.color = UIColor(color)
+            try myList.save()
+        } catch {
+            print(error)
+        }
     }
 }
