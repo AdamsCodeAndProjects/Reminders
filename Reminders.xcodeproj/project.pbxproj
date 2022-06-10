@@ -16,6 +16,7 @@
 		6697CBDC28539904000165B5 /* RemindersModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6697CBDA28539904000165B5 /* RemindersModel.xcdatamodeld */; };
 		6697CBDF28539A2D000165B5 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6697CBDE28539A2D000165B5 /* MyList.swift */; };
 		6697CBE228539ED3000165B5 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6697CBE128539ED3000165B5 /* CoreDataManager.swift */; };
+		6697CBE52853A140000165B5 /* AddNewListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6697CBE42853A140000165B5 /* AddNewListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		6697CBDB28539904000165B5 /* RemindersModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemindersModel.xcdatamodel; sourceTree = "<group>"; };
 		6697CBDE28539A2D000165B5 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		6697CBE128539ED3000165B5 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		6697CBE42853A140000165B5 /* AddNewListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		6697CBC52853941A000165B5 /* Reminders */ = {
 			isa = PBXGroup;
 			children = (
+				6697CBE32853A11F000165B5 /* ViewModels */,
 				6697CBE028539EBA000165B5 /* Managers */,
 				6697CBDD28539A1E000165B5 /* Models */,
 				6697CBD7285394D6000165B5 /* Info.plist */,
@@ -106,6 +109,14 @@
 				6697CBE128539ED3000165B5 /* CoreDataManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		6697CBE32853A11F000165B5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6697CBE42853A140000165B5 /* AddNewListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +196,7 @@
 				6697CBC72853941A000165B5 /* RemindersApp.swift in Sources */,
 				6697CBE228539ED3000165B5 /* CoreDataManager.swift in Sources */,
 				6697CBDF28539A2D000165B5 /* MyList.swift in Sources */,
+				6697CBE52853A140000165B5 /* AddNewListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
