@@ -30,4 +30,21 @@ struct MyListViewModel: Identifiable {  // Will be displayed on a screen, so cal
     var color: Color {
         Color(myList.color ?? .clear)
     }
+    
+    //  Get all items
+    var itemsCount: Int {
+        items.count
+    }
+    
+    var items: [MyListItemViewModel] {
+        
+        guard let items = myList.items,
+              let myItems = (items.allObjects as? [MyListItem])
+        else {
+            return []
+        }
+        // Returning an array of MYLIstItemViewModel
+        return myItems.filter { $0.isCompleted == false }.map(MyListItemViewModel.init)
+    }
+    
 }
