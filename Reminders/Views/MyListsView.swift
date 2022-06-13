@@ -20,11 +20,17 @@ struct MyListsView: View {
             List {
                 Text("My Lists")
                 ForEach(vm.myLists) { myList in
-                    HStack {
-                        Image(systemName: Constants.Icons.lineCircleFill)
-                            .font(.title)
-                            .foregroundColor(myList.color)
-                        Text(myList.name)
+                    
+                    NavigationLink {
+                        HeaderView(name: myList.name, count: 6, color: myList.color)
+                        MyListItemsView()
+                    } label: {
+                        HStack {
+                            Image(systemName: Constants.Icons.lineCircleFill)
+                                .font(.title)
+                                .foregroundColor(myList.color)
+                            Text(myList.name)
+                        }
                     }.contextMenu {  // For deleting
                         Button {
                             // action

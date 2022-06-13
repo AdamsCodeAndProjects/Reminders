@@ -10,7 +10,7 @@ import CoreData
 import UIKit
 
 @objc(MyList)
-class MyList: NSManagedObject, BaseModel {
+public class MyList: NSManagedObject, BaseModel {
     
     //  Request for lists
     static var all: NSFetchRequest<MyList> {
@@ -29,6 +29,7 @@ extension MyList {
 
     @NSManaged public var color: UIColor?
     @NSManaged public var name: String?
+    @NSManaged public var items: NSSet? 
 
 }
 
