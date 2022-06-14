@@ -12,6 +12,8 @@
 		663562812857D2F9007DC386 /* MyListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663562802857D2F9007DC386 /* MyListItemViewModel.swift */; };
 		663562832857D534007DC386 /* DueDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663562822857D534007DC386 /* DueDate.swift */; };
 		663562862857D579007DC386 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663562852857D579007DC386 /* DateExtensions.swift */; };
+		663562882858E1C8007DC386 /* AddNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663562872858E1C8007DC386 /* AddNewView.swift */; };
+		6635628A2858E2F8007DC386 /* DateSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663562892858E2F8007DC386 /* DateSelectionView.swift */; };
 		6697CBC72853941A000165B5 /* RemindersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6697CBC62853941A000165B5 /* RemindersApp.swift */; };
 		6697CBC92853941A000165B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6697CBC82853941A000165B5 /* ContentView.swift */; };
 		6697CBCB28539421000165B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6697CBCA28539421000165B5 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 		663562802857D2F9007DC386 /* MyListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemViewModel.swift; sourceTree = "<group>"; };
 		663562822857D534007DC386 /* DueDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueDate.swift; sourceTree = "<group>"; };
 		663562852857D579007DC386 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		663562872858E1C8007DC386 /* AddNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewView.swift; sourceTree = "<group>"; };
+		663562892858E2F8007DC386 /* DateSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSelectionView.swift; sourceTree = "<group>"; };
 		6697CBC32853941A000165B5 /* Reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6697CBC62853941A000165B5 /* RemindersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersApp.swift; sourceTree = "<group>"; };
 		6697CBC82853941A000165B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 				6697CBF62853D8F8000165B5 /* MyListsView.swift */,
 				6635627C2857D0C4007DC386 /* HeaderView.swift */,
 				6635627E2857D1CE007DC386 /* MyListItemsView.swift */,
+				663562872858E1C8007DC386 /* AddNewView.swift */,
+				663562892858E2F8007DC386 /* DateSelectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -257,12 +263,14 @@
 				6697CBDC28539904000165B5 /* RemindersModel.xcdatamodeld in Sources */,
 				6697CBF32853D439000165B5 /* MyListsViewModel.swift in Sources */,
 				6697CBF52853D62A000165B5 /* MyListViewModel.swift in Sources */,
+				663562882858E1C8007DC386 /* AddNewView.swift in Sources */,
 				6697CBD62853945E000165B5 /* HomeScreenView.swift in Sources */,
 				6697CBD92853958B000165B5 /* SideBarView.swift in Sources */,
 				6635627D2857D0C4007DC386 /* HeaderView.swift in Sources */,
 				6635627F2857D1CE007DC386 /* MyListItemsView.swift in Sources */,
 				6697CBC92853941A000165B5 /* ContentView.swift in Sources */,
 				6697CBC72853941A000165B5 /* RemindersApp.swift in Sources */,
+				6635628A2858E2F8007DC386 /* DateSelectionView.swift in Sources */,
 				6697CBE228539ED3000165B5 /* CoreDataManager.swift in Sources */,
 				6697CBE92853A5E2000165B5 /* AddNewListView.swift in Sources */,
 				6697CBDF28539A2D000165B5 /* MyList.swift in Sources */,
